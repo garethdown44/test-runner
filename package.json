@@ -24,7 +24,7 @@
     "react-bootstrap": "^0.23.7",
     "react-dom": "^0.14.2",
     "react-reorderable": "^0.1.10",
-    "react-tooltip": "^0.8.2",
+    "react-tooltip": "^3.8.1",
     "react-ui-tree": "^2.5.0",
     "rx": "^2.3.22",
     "rx-jquery": "^1.1.7"
