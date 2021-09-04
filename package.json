@@ -27,7 +27,8 @@
     "react-tooltip": "^0.8.2",
     "react-ui-tree": "^2.5.0",
     "rx": "^2.3.22",
-    "rx-jquery": "^1.1.7"
+    "rx-jquery": "^1.1.7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "browser-sync": "^2.8.2",
@@ -59,8 +60,12 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.3.1"
   },
-  "scripts": {},
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
   "bundledDependencies": [
     "socket.io"
-  ]
+  ],
+  "snyk": true
 }
