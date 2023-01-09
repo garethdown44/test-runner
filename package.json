@@ -12,7 +12,7 @@
     "bootstrap": "^3.3.5",
     "browserify": "^6.1.0",
     "classnames": "^2.2.3",
-    "debug": "^2.2.0",
+    "debug": "^3.1.0",
     "gulp-streamify": "^1.0.0",
     "immutable": "^3.7.4",
     "jquery": "^2.1.4",
